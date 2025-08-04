@@ -81,9 +81,8 @@ body.dark-mode .navbar {
   border-radius: 6px;
   transition: background 0.2s;
 }
-
-#Sign-up:hover {
-  background-color: rgb(138, 165, 238);
+#Sign-up:hover{
+ background-color: rgb(138, 165, 238);
 }
 
 .nav-link:hover {
@@ -158,12 +157,10 @@ body.dark-mode .toggle-btn {
 
 body.dark-mode .menu-bar {
   background-color: #fff;
-}
-
-/* Base Styles */
+}/* Base Styles */
 .navbar {
   background: white;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   position: sticky;
   top: 0;
   z-index: 999;
@@ -215,7 +212,7 @@ body.dark-mode .menu-bar {
     display: none;
     flex-direction: column;
     width: 100%;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     padding: 1rem 0;
   }
 
@@ -280,7 +277,6 @@ body.dark-mode .hero-section {
   gap: 40px;
   flex-wrap: wrap;
 }
-
 .hero-container {
   display: flex;
   flex-wrap: wrap;
@@ -384,7 +380,7 @@ body.dark-mode .features-section {
   background-color: #fff;
   text-align: center;
   transition: transform 0.2s;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
 }
 
 body.dark-mode .feature-card {
@@ -429,7 +425,7 @@ body.dark-mode .feature-card {
   overflow: hidden;
   text-align: center;
   background-color: #fff;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
   transition: transform 0.3s ease;
 }
 
@@ -520,7 +516,7 @@ body.dark-mode .how-it-works-section {
   padding: 20px;
   border-radius: 10px;
   background-color: #fff;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
 }
 
 body.dark-mode .step-card {
@@ -547,8 +543,8 @@ body.dark-mode .step-card {
 }
 
 /* SLIDERS */
-/* CLIENT SLIDER SECTION */
-/* CLIENT SECTION */
+/* client SLIDER SECTION */
+/* client SECTION */
 .client-section {
   background-color: black;
   padding: 60px 0;
@@ -601,24 +597,14 @@ body.dark-mode .client-heading-container .section-title {
 }
 
 @keyframes slideclient {
-  0% {
-    transform: translateX(0);
-  }
-
-  100% {
-    transform: translateX(-50%);
-  }
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
 }
 
 /* Faster sliding version */
 @keyframes slideLeft {
-  0% {
-    transform: translateX(0%);
-  }
-
-  100% {
-    transform: translateX(-50%);
-  }
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-50%); }
 }
 
 /* SPONSORS SECTION */
@@ -665,13 +651,8 @@ body.dark-mode .client-heading-container .section-title {
 
 /* Animate left to right */
 @keyframes slideSponsors {
-  0% {
-    transform: translateX(0);
-  }
-
-  100% {
-    transform: translateX(-50%);
-  }
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
 }
 
 
@@ -849,7 +830,7 @@ body.dark-mode .top-menu a {
   font-size: 1.1rem;
   cursor: pointer;
   display: none;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 10px rgba(0,0,0,0.3);
   z-index: 1000;
 }
 
@@ -888,15 +869,9 @@ body.dark-mode .top-menu a {
 }
 
 @keyframes spin {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  100% {
-    transform: rotate(360deg);
-  }
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
 }
-
 /* AUTH PAGES (Login & Register) */
 
 .auth-wrapper {
@@ -1095,7 +1070,6 @@ body.dark-mode .demo-step {
   background-color: #1f1f1f;
   color: #e5e5e5;
 }
-
 /* 404 PAGE */
 .notfound-section {
   min-height: 100vh;
@@ -1123,7 +1097,6 @@ body.dark-mode .notfound-section {
   font-size: 1.2rem;
   margin-bottom: 25px;
 }
-
 /* CATEGORY PAGE */
 .category-display-section {
   padding: 60px 0;
@@ -1189,7 +1162,6 @@ body.dark-mode .product-card {
   background-color: #222;
   color: #aaa;
 }
-
 /* PRODUCT GRID */
 .category-section {
   margin-bottom: 60px;
@@ -1296,7 +1268,6 @@ body.dark-mode .contact-info {
 .contact-info h2 {
   margin-bottom: 15px;
 }
-
 /* DASHBOARD PAGE */
 .dashboard-section {
   padding: 60px 0;
@@ -1357,7 +1328,6 @@ body.dark-mode .dashboard-card {
 body.dark-mode .dashboard-card p {
   color: #ccc;
 }
-
 /* LEARN MORE PAGE */
 .learnmore-section {
   padding: 60px 0;
@@ -1410,7 +1380,6 @@ body.dark-mode .learnmore-block {
   background-color: #1f1f1f;
   color: #e5e5e5;
 }
-
 /* PRICING PAGE */
 .pricing-section {
   padding: 60px 0;
@@ -1470,7 +1439,6 @@ body.dark-mode .pricing-card.recommended {
   color: #fff;
   border-color: #3b82f6;
 }
-
 /* LEGAL PAGES (Privacy / Terms) */
 .legal-section {
   padding: 60px 0;
@@ -1491,7 +1459,6 @@ body.dark-mode .pricing-card.recommended {
 body.dark-mode .legal-text {
   color: #ccc;
 }
-
 /* RECYCLE PROCESS PAGE */
 .recycle-process-section {
   padding: 60px 0;
@@ -1557,7 +1524,6 @@ body.dark-mode .circular-item {
 body.dark-mode .recycle-details p {
   color: #ccc;
 }
-
 .recycle-steps {
   display: flex;
   align-items: center;
@@ -1572,7 +1538,7 @@ body.dark-mode .recycle-details p {
   height: 100px;
   object-fit: cover;
   border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
 .arrow {
